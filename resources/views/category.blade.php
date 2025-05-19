@@ -19,7 +19,7 @@
     }
 
     body {
-      background-color: #161730;
+      background-color: #161730 !important;
       color: white;
       margin: 0;
       padding: 0;
@@ -29,7 +29,7 @@
     .ajr-hero-section {
       padding: 60px 0;
       margin-bottom: 50px;
-      /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); */
+      background-color: #161730 !important;
     }
     
     .ajr-hero-container {
@@ -37,6 +37,7 @@
       margin: 0 auto;
       border-radius: 5px;
       overflow: hidden;
+      background-color: #161730 !important;
     }
     
     .ajr-hero-row {
@@ -460,6 +461,7 @@
   </style>
 </head>
 <body>
+  @include('layouts.navbar')
   <section class="category-section">
     <!-- New Hero Section -->
     <section class="ajr-hero-section">

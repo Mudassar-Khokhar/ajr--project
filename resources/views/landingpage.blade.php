@@ -18,17 +18,17 @@
     <div class="hero-content">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">AJR</a>
+          <a class="navbar-brand" href="/">AJR</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ route('category') }}">Categories</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About Us</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Categories</a></li>
+              <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
             </ul>
             <div class="d-flex align-items-center">
               <a href="#" class="icon-btn"><i class="fas fa-search"></i></a>

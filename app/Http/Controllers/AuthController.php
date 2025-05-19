@@ -79,15 +79,12 @@ class AuthController extends Controller
 }
 
     public function logout(Request $request)
-    {
-        Auth::logout();
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
+{
+    Auth::logout();
+    $request->session()->invalidate();
+    $request->session()->regenerateToken();
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Logged out successfully',
-            'redirect' => route('home') // Change to your home route
-        ]);
-    }
+    return redirect()->route('landingpage'); // This will redirect to landingpage
+}
+
 }

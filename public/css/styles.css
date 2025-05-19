@@ -34,7 +34,7 @@ body {
 .hero-content {
   position: relative;
   z-index: 2;
-  width: 80%;
+  width: 80% !important;
   margin: 0 auto;
   height: 100%;
   display: flex;
@@ -799,7 +799,7 @@ body {
 }
 
 .review-container-custom {
-    width: 80%;
+    width: 80% !important;
     margin: 0 auto;
     position: relative;
 }
@@ -819,6 +819,7 @@ body {
     margin: 15px;
     transition: all 0.3s ease;
     min-height: 300px;
+    width: auto;
 }
 
 /* Center card styling */

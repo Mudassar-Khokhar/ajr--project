@@ -26,7 +26,7 @@
             background-color: #161730 !important;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 15px;
+            /* padding: 0 15px; */
         }
         
         /* Navigation */
@@ -216,13 +216,13 @@
     </style>
 </head>
 <body>
+@include('layouts.navbar')
     <div class="agr-container">
         <!-- Breadcrumb Navigation -->
         <div class="agr-breadcrumb">
             <a href="#">Home</a> / <span>Build Your Own</span>
         </div>
-        
-        <!-- Main Heading -->
+    
         <h1 class="agr-main-heading">Build Your Own</h1>
         
         <!-- Product Type Buttons -->
